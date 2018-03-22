@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>GIPHY API Demo</title>
+
+    <!--Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Picture for icon on title tab -->
+    <link rel="icon" href="./assets/Images/giphy_logo.jpg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Dog Breed GIPHY Search</a>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" id= "search-term" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <div class="container">
+
+        <div id="breedBtn">
+            <button data-breed="Australian Shepherd"> Australian Shepherd
+            </button>
+            <button data-breed="Beagle"> Beagle
+            </button>
+            <button data-breed="Border Collie"> Border Collie
+            </button>
+            <button data-breed="Boston Terrier">Boston Terrier
+            </button>
+            <button data-breed="Bulldog"> Bull Dog
+            </button>
+            <button data-breed="Corgi"> Corgi
+            </button>
+            <button data-breed="Dachshund"> Dachshund
+            </button>
+            <button data-breed="Doberman Pinscher"> Doberman Pinscher
+            </button>
+            <button data-breed="German Shepherd"> German Shepherd
+            </button>
+            <button data-breed="Golden Retriever">Golden Retriever
+            </button>
+            <button data-breed="Great Dane"> Great Dane
+            </button>
+            <button data-breed="Labrador Retriever"> Labrador Retriever
+            </button>
+            <button data-breed="Pomeranian"> Pomeranian
+            </button>
+            <button data-breed="Poodle"> Poodle
+            </button>
+            <button data-breed="Pug"> Pug
+            </button>
+            <button data-breed="Rottweiler"> Rottweiler
+            </button>
+            <button data-breed="Saint Bernard"> Saint Bernard
+            </button>
+            <button data-breed="Shar Pei"> Shar Pei
+            </button>
+            <button data-breed="Siberian Husky"> Siberian Husky
+            </button>
+            <button data-breed="Staffordshire Bull Terrier"> Staffordshire Bull Terrier
+            </button>
+
+
+        </div>
+
+        <div id="gifs-appear-here">
+            <div class="row">
+                <div class="col-xs-8"></div>
+                <div class="col-xs-8"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- GIPHY App Javascript file -->
+<script src="./assets/Javascript/app.js"></script>
+
+</html>
